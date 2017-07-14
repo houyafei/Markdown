@@ -143,11 +143,24 @@ void main()
 效果：
 > [younghz的Markdown库](https:://github.com/younghz/Markdown "Markdown")。
 
+**添加图片**
+>+ \!\[图片名称\]\（图片链接\）
+>+ 如：\!\[phicomm]（http://www.phicomm.com/cn/Uploads/20170317/58cb742cc15d6.jpg）
+
+效果：
+> ![phicomm](http://www.phicomm.com/cn/Uploads/20170317/58cb742cc15d6.jpg)。
+
 **参考式**：
 > \[younghz的Markdown库1\]\[1\]    
 > \[younghz的Markdown库2\]\[2\]    
 > \[1\]:https:://github.com/younghz/Markdown "Markdown"    
-> \[2\]:https:://github.com/younghz/Markdown "Markdown"    
+> \[2\]:https:://github.com/younghz/Markdown "Markdown"   
+
+**小技巧**
+> 在自己写的README.md文档中添加图片方法：
++ 1、将图片放在项目中的一个文件中，将项目push到仓库中，此后图片也位于项目仓库。
++ 2、打开仓库中的图片，查看其链接，然后将其添加到README文件中，然后将README文件push到仓库。
++ 3、仓库中的README文件中便包含图片。
 
 效果：
 > [younghz的Markdown库1][1]    
